@@ -1,5 +1,5 @@
 ****************************************************************************************
-`brasil.gov.newfieldcomplement: Suporte a novos campos dexterity na busca multifacetada`
+`brasil.gov.newfieldcomplement: Suporte a novos campos dexterity na busca multifacetada.`
 ****************************************************************************************
 
 .. contents:: Conteúdo
