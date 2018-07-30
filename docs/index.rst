@@ -26,15 +26,15 @@ Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
     3. Criar nova aba: Relatório
     4. Criar os novos campos: data_relatorio e ministerio_relatorio
 
-    image:: data_relatorio_field.png
+    .. image:: data_relatorio_field.png
 
-    image:: ministerio_relatorio_field.png
+    .. image:: ministerio_relatorio_field.png
 
     5. O campo ministerio_relatorio utilizará o cocabulário dinâmico 01.
 
     Configuração do site > Tipos de conteúdo dexterity > File > Campos > Relatório > ministerio_relatorio > Configurações
 
-    image:: ministerio_relatorio_field_config.png
+    .. image:: ministerio_relatorio_field_config.png
 
 
 - Criar índice e metadado no portal_catalog para os novos campos.
@@ -47,9 +47,9 @@ Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
 
     1. configuração do site > Adicionar índice/metadata ao portal_catalog
 
-    image:: data_relatorio_index_metadata.png
+    .. image:: data_relatorio_index_metadata.png
 
-    image:: ministerio_relatorio_index_metadata.png
+    .. image:: ministerio_relatorio_index_metadata.png
 
     - Tipos de índice:
         - FieldIndex: campos texto pequenos, como o título. Realizamos uma comparação completa do termo.
