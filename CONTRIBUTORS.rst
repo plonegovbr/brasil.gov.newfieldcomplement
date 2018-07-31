@@ -1,4 +1,4 @@
 Contributors
 ============
 
-- SERPRO, glauter.vilela@serpro.gov.br
+- SERPRO, idgserpro@serpro.gov.br

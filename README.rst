@@ -59,4 +59,7 @@ buildout:
 Documentação
 --------------
 
-.. include::  /docs/README.rst
+.. _docs:  ./docs/README.rst
+
+A documentação encontra-se na pasta docs_.
+

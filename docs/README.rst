@@ -6,11 +6,11 @@
    :depth: 2
 
 
-.. warning::
-   A criação de novos tipos de conteúdo ou novos campos em tipos já existentes torna o Plone Site customizado.
-   A criação de novos índices e metadados no portal_catalog tendem a diminiur o desempenho da aplicação.
-   Ressaltamos que a criação de novos Tipos, Campos, Índices e Metadados deve ser realizada com planejamento e cautela.
-   
+  .. warning::
+     A criação de novos tipos de conteúdo ou novos campos em tipos já existentes torna o Plone Site customizado.
+     A criação de novos índices e metadados no portal_catalog tendem a diminiur o desempenho da aplicação.
+     Ressaltamos que a criação de novos Tipos, Campos, Índices e Metadados deve ser realizada com planejamento e cautela.
+
 
 Manager
 -------
