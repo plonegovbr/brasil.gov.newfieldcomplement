@@ -1,6 +1,6 @@
-****************************************************************************************
+#########################################################################################
 `brasil.gov.newfieldcomplement: Suporte a novos campos dexterity na busca multifacetada.`
-****************************************************************************************
+#########################################################################################
 
 .. contents:: Conteúdo
    :depth: 2
@@ -54,3 +54,9 @@ buildout:
 
 4. Acesse o painel de controle e instale o produto
 **Suporte a novos campos dexterity na busca multifacetada (brasil.gov.newfieldcomplement)**.
+
+
+Documentação
+--------------
+
+.. include::  /docs/README.rst
