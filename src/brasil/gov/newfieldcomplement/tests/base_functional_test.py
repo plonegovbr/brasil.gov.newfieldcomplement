@@ -146,6 +146,17 @@ class BaseFuncitonalTest(unittest.TestCase):
             ]
         )
 
+    def _add_data_relatorio_index(self):
+        portal_catalog = api.portal.get_tool('portal_catalog')
+        portal_catalog.manage_addIndex(
+            name='data_relatorio',
+            type='DateIndex',
+            extra=None,
+        )
+        portal_catalog.addColumn(
+            name='data_relatorio',
+        )
+
     def _add_ministerio_relatorio_index(self):
         portal_catalog = api.portal.get_tool('portal_catalog')
         portal_catalog.manage_addIndex(

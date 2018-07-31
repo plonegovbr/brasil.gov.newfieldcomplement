@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from brasil.gov.newfieldcomplement.tests.base_functional_test import BaseFuncitonalTest
+from DateTime import DateTime
 from plone import api
 from plone.app.testing import logout
 
@@ -13,12 +14,14 @@ class FacetedTabularConfigTest(BaseFuncitonalTest):
         super(FacetedTabularConfigTest, self).setUp()
         self.view_name = 'relatorios/@@faceted-tabular-config'
         self._configure_dynamic_vocabulary_01()
+        self._add_data_relatorio_index()
         self._add_ministerio_relatorio_index()
         api.content.create(
             container=self.portal['relatorios'],
             type='File',
             id='arquivo-01',
             title=u'Arquivo 01',
+            data_relatorio=DateTime('2018-07-29 00:00:00'),
             ministerio_relatorio='fazenda',
         )
         api.content.create(
@@ -26,6 +29,7 @@ class FacetedTabularConfigTest(BaseFuncitonalTest):
             type='File',
             id='arquivo-02',
             title=u'Arquivo 02',
+            data_relatorio=DateTime('2018-07-30 00:00:00'),
             ministerio_relatorio='planejamento',
         )
         api.content.create(
@@ -33,6 +37,7 @@ class FacetedTabularConfigTest(BaseFuncitonalTest):
             type='File',
             id='arquivo-03',
             title=u'Arquivo 03',
+            data_relatorio=DateTime('2018-07-31 00:00:00'),
             ministerio_relatorio='fazenda',
         )
         transaction.commit()
@@ -141,7 +146,7 @@ class FacetedTabularConfigTest(BaseFuncitonalTest):
         ).value = 'Ministério'
         self.browser.getControl(
             name='form.widgets.column_04:list',
-        ).value = ['Date', ]
+        ).value = ['data_relatorio', ]
         self.browser.getControl(
             name='form.widgets.column_04_title',
         ).value = 'Data'

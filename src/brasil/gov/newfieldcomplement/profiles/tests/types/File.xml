@@ -48,12 +48,19 @@
         &lt;description/&gt;
         &lt;title i18n:translate="label_file"&gt;File&lt;/title&gt;
       &lt;/field&gt;
-      &lt;field name="ministerio_relatorio" type="zope.schema.Choice"&gt;
-        &lt;description&gt;Selecione o minist&amp;#233;rio.&lt;/description&gt;
-        &lt;required&gt;False&lt;/required&gt;
-        &lt;title&gt;Minist&amp;#233;rio&lt;/title&gt;
-        &lt;vocabulary&gt;brasil.gov.newfieldcomplement.dynamic_vocabulary_01&lt;/vocabulary&gt;
-      &lt;/field&gt;
+      &lt;fieldset name="relatorio" label="Relat&amp;#243;rio"&gt;
+        &lt;field name="data_relatorio" type="zope.schema.Date"&gt;
+          &lt;description/&gt;
+          &lt;required&gt;False&lt;/required&gt;
+          &lt;title&gt;Data do Relat&amp;#243;rio&lt;/title&gt;
+        &lt;/field&gt;
+        &lt;field name="ministerio_relatorio" type="zope.schema.Choice"&gt;
+          &lt;description/&gt;
+          &lt;required&gt;False&lt;/required&gt;
+          &lt;title&gt;Minist&amp;#233;rio&lt;/title&gt;
+          &lt;vocabulary&gt;brasil.gov.newfieldcomplement.dynamic_vocabulary_01&lt;/vocabulary&gt;
+        &lt;/field&gt;
+      &lt;/fieldset&gt;
     &lt;/schema&gt;
   &lt;/model&gt;</property>
  <property name="model_file">plone.app.contenttypes.schema:file.xml</property>
