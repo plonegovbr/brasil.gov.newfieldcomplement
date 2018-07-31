@@ -154,3 +154,7 @@ Conteudista (Contributor / Editor)
         .. image:: coluna_04.png
 
         .. image:: coluna_05.png
+
+        Exemplo do resultado de uma pesquisa:
+
+        .. image:: resultado.png

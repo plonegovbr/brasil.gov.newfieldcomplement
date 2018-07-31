@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from datetime import date
 from DateTime import DateTime
 from Products.Five.browser import BrowserView
 from zope.component import getMultiAdapter
@@ -32,7 +33,9 @@ class FacetedTabularView(BrowserView):
 
     def get_value(self, field_name=None, vocab_name=None, brain=None):
         if brain.has_key(field_name):  # noqa
-            if isinstance(brain[field_name], DateTime):
+            if isinstance(brain[field_name], date):
+                return brain[field_name].strftime('%d/%m/%Y')
+            elif isinstance(brain[field_name], DateTime):
                 return self.plone.toLocalizedTime(
                     brain[field_name],
                     long_format=True,
