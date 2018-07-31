@@ -97,7 +97,7 @@ Conteudista (Contributor / Editor)
 
     4) Definir os critérios da busca facetada.
 
-        **Este pacote inclui o arquivo */docs/relatorios.xml* **.
+        **Este pacote inclui o arquivo** */docs/relatorios.xml*.
 
         Uma configuração inicial que pode ser importada na configuração dos critérios e posteriormente editada.
 
