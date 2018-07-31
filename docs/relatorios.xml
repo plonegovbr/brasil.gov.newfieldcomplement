@@ -39,7 +39,7 @@
    <property name="count">1</property>
    <property name="hidezerocount"></property>
    <property name="index">portal_type</property>
-   <property name="operator">and</property>
+   <property name="operator">or</property>
    <property
       name="vocabulary">eea.faceted.vocabularies.FacetedPortalTypes</property>
    <property name="catalog"></property>
@@ -73,7 +73,10 @@
    <property name="catalog"></property>
    <property name="maxitems">10</property>
    <property name="sortreversed"></property>
-   <property name="default">/plone/relatorios</property>
+   <property name="default">
+    <element value="/Plone/relatorios"/>
+    <element value="/plone/relatorios"/>
+   </property>
   </criterion>
   <criterion name="c8">
    <property name="widget">daterange</property>

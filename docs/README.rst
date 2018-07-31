@@ -138,3 +138,19 @@ Conteudista (Contributor / Editor)
         Página Inicial > Relatórios > Exibição > Visão Facetada Tabular
 
             .. image:: visao_facetada_tabular.png
+
+    6) Configurar as colunas exibidas na Visão Facetada Tabular.
+       É obrigatório que pelo menos uma coluna seja preenchida.
+       Pelo menos uma coluna deve ser marcada como link para a visão do objeto.
+
+        Página Inicial > Relatórios > Campos da Visão Facetada Tabular
+
+        .. image:: coluna_01.png
+
+        .. image:: coluna_02.png
+
+        .. image:: coluna_03.png
+
+        .. image:: coluna_04.png
+
+        .. image:: coluna_05.png
