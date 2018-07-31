@@ -20,3 +20,4 @@ Makefile
 parts/
 var/
 dist/
+local/
