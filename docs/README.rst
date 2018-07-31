@@ -48,7 +48,7 @@ Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
     Para que o valor informado em um novo campo possa ser exibido em uma listagem
     é conveniente que exista um metadado no portal_catalog relacionado a ele.
 
-    1) configuração do site > Adicionar índice/metadata ao portal_catalog
+    1) Configuração do site > Adicionar índice/metadata ao portal_catalog
 
        .. image:: data_relatorio_index_metadata.png
 
@@ -97,13 +97,13 @@ Conteudista (Contributor / Editor)
 
     4) Definir os critérios da busca facetada.
 
+        **Este pacote inclui o arquivo */docs/relatorios.xml* **.
+
+        Uma configuração inicial que pode ser importada na configuração dos critérios e posteriormente editada.
+
         Página Inicial > Relatórios > Critérios facetadas
 
         .. image:: criterios_facetadas.png
-
-        Este pacote inclui o arquivo **/docs/relatorios.xml**.
-
-        Uma configuração inicial que pode ser importada na configuração dos critérios e posteriormente editada
 
         - Título – campo de texto, índice: Título (Title)
 
