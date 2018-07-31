@@ -6,14 +6,15 @@
    :depth: 2
 
 
-  .. warning::
-     A criação de novos tipos de conteúdo ou novos campos em tipos já existentes torna o Plone Site customizado.
-     A criação de novos índices e metadados no portal_catalog tendem a diminiur o desempenho da aplicação.
-     Ressaltamos que a criação de novos Tipos, Campos, Índices e Metadados deve ser realizada com planejamento e cautela.
+** A criação de novos tipos de conteúdo ou novos campos em tipos já existentes torna o Plone Site customizado. **
+
+** A criação de novos índices e metadados no portal_catalog tendem a diminiur o desempenho da aplicação. **
+
+** Ressaltamos que a criação de novos Tipos, Campos, Índices e Metadados deve ser realizada com planejamento e cautela. **
 
 
 Manager
--------
+--------
 
 Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
 
@@ -29,7 +30,7 @@ Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
 
        .. image:: ministerio_relatorio_field.png
 
-    5) O campo ministerio_relatorio utilizará o cocabulário dinâmico 01.
+    5) O campo ministerio_relatorio utilizará o vocabulário dinâmico 01.
 
        Configuração do site > Tipos de conteúdo dexterity > File > Campos > Relatório > ministerio_relatorio > Configurações
 
@@ -56,3 +57,15 @@ Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
         - ZCTextIndex: campos texto maiores, como o descrição. Realizamos busca por palavras/partes do todo.
         - BooleanIndex: campos checkbox. Verdadeiro ou Falso.
         - KeywordIndex: campox texto como o Tags. Palavras-chave.
+
+
+Administrador do Site
+-----------------------
+
+- Preencher o(s) vocabulário(s) dinâmico(s).
+
+    1) Configuração do site > Vocabulários Dinâmicos.
+
+        O campo ministerio_relatorio utiliza o vocabulário dinâmico 01.
+
+        .. image:: vocabularios_dinamicos.png
