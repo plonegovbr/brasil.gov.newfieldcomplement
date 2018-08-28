@@ -25,8 +25,10 @@ class FacetedTabularView(BrowserView):
     def get_title_by_value(self, vocab_name=None, value=None):
         factory = getUtility(IVocabularyFactory, vocab_name)
         vocabulary = factory(self.context)
-        term = vocabulary.getTerm(value)
-        return term.title
+        if value:
+            term = vocabulary.getTerm(value)
+            return term.title
+        return ''
 
     def get_faceted_tabular_fields(self):
         return self.utils.get_faceted_tabular_fields()
