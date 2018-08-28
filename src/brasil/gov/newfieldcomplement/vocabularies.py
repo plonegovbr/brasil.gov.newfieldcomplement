@@ -41,6 +41,8 @@ def _get_registry_value(id):
     values = api.portal.get_registry_record(
         '{0}.{1}'.format(VOCABULARIES_REGISTRY_PREFIX, id)
     )
+    if not values:
+        values = [u'']
     return values
 
 
