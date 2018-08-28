@@ -39,6 +39,8 @@ Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
 
        .. image:: ministerio_relatorio_field_config.png
 
+    6) Arrastar os novos campos data_relatorio e ministerio_relatorio para a nova aba Relatório.
+
 
 - Criar índice e metadado no portal_catalog para os novos campos.
 
