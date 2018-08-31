@@ -60,12 +60,14 @@ Obs.: Os sites que utilizam o pacote IDG já vem com os pacotes
 instalados. Para os sites que não utilizam o pacote IDG, é necessário que os mesmos sejam instalados.
 Caso não estejam disponíveis para instalação, devem ser adicionados ao buildout:
 
-    [buildout]
-        ...
-        eggs =
-            plone.app.dexterity
-            plone.app.contenttypes
-            brasil.gov.newfieldcomplement
+        [buildout]
+            ...
+            eggs =
+                plone.app.dexterity
+
+                plone.app.contenttypes
+
+                brasil.gov.newfieldcomplement
 
 
 Documentação

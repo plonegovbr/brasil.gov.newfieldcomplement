@@ -30,7 +30,7 @@ Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
 
     4. Informe o nome que será atribuído ao novo tipo de conteúdo. Não utilize acentuação ou caracteres especiais.
 
-        .. image:: clonar.png
+        .. image:: clonar_form.png
 
 - Criar novos campos para um tipo de conteúdo Dexterity.
 
