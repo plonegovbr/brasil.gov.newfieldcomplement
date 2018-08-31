@@ -55,6 +55,18 @@ buildout:
 4. Acesse o painel de controle e instale o produto
 **Suporte a novos campos dexterity na busca multifacetada (brasil.gov.newfieldcomplement)**.
 
+Obs.: Os sites que utilizam o pacote IDG já vem com os pacotes
+**Tipos de conteúdo Dexterity (plone.app.dexterity)** e **Content-Types (plone.app.contenttypes)**
+instalados. Para os sites que não utilizam o pacote IDG, é necessário que os mesmos sejam instalados.
+Caso não estejam disponíveis para instalação, devem ser adicionados ao buildout:
+
+    [buildout]
+        ...
+        eggs =
+            plone.app.dexterity
+            plone.app.contenttypes
+            brasil.gov.newfieldcomplement
+
 
 Documentação
 --------------
