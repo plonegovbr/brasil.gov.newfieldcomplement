@@ -18,7 +18,7 @@ Manager
 
 Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
 
-- Caso necessário, criar novos tipos de conteúdo Dexterity.
+- Caso necessário, criar novo tipo de conteúdo Dexterity.
 
     1. Configuração do site > Tipos de conteúdo dexterity
 
@@ -31,6 +31,7 @@ Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
     4. Informe o nome que será atribuído ao novo tipo de conteúdo. Não utilize acentuação ou caracteres especiais.
 
         .. image:: clonar_form.png
+
 
 - Criar novos campos para um tipo de conteúdo Dexterity.
 
@@ -69,35 +70,54 @@ Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
 
        .. image:: ministerio_relatorio_index_metadata.png
 
-       - Tipos de índice:
+       **Tipos de índice:**
 
-        - FieldIndex: campos texto pequenos, como o título.
-            Realiza uma comparação completa do termo.
-            Utilizado para os tipos de campo:
-                Linha de texto (string)
-                Inteiro
-                Número de ponto flutuante
-                Seleção
-                Multipla escolha
+            - **FieldIndex**: campos texto pequenos, como o título.
 
-        - DateIndex: campos data.
-            Utilzado para os tipos de campo:
-                Data
-                Data e hora
+                Realiza uma comparação completa do termo.
 
-        - ZCTextIndex: campos texto maiores, como o descrição ou corpo do texto da página.
-            Realiza busca por palavras/partes do todo.
-            Utilizado para os tipos de campo:
-                Texto
-                Texto rico
+                Utilizado para os tipos de campo:
 
-        - BooleanIndex: campos checkbox. Verdadeiro ou Falso.
-            Utilizado para o tipo de campo:
-                Sim/Não
+                    Linha de texto (string)
 
-        - KeywordIndex: campox texto como o Tags. Palavras-chave.
-            Utilizado para o tipo de campo:
-                Multipla escolha
+                    Inteiro
+
+                    Número de ponto flutuante
+
+                    Seleção
+
+                    Multipla escolha
+
+            - **DateIndex**: campos data.
+
+                Utilzado para os tipos de campo:
+
+                    Data
+
+                    Data e hora
+
+            - **ZCTextIndex**: campos texto maiores, como o descrição ou corpo do texto da página.
+
+                Realiza busca por palavras/partes do todo.
+
+                Utilizado para os tipos de campo:
+
+                    Texto
+
+                    Texto rico
+
+            - **BooleanIndex**: campos checkbox. Verdadeiro ou Falso.
+
+                Utilizado para o tipo de campo:
+
+                    Sim/Não
+
+            - **KeywordIndex**: campox texto como o Tags. Palavras-chave.
+
+                Utilizado para o tipo de campo:
+
+                    Multipla escolha
+
 
 
 Administrador do Site (Site Administrator)
@@ -110,6 +130,7 @@ Administrador do Site (Site Administrator)
         O campo ministerio_relatorio utiliza o vocabulário dinâmico 01.
 
         .. image:: vocabularios_dinamicos.png
+
 
 
 Administrador do Site (Site Administrator) ou Conteudista (Contributor / Editor / Reviewer)
@@ -198,3 +219,4 @@ Administrador do Site (Site Administrator) ou Conteudista (Contributor / Editor 
         Exemplo do resultado de uma pesquisa:
 
         .. image:: resultado.png
+
