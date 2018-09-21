@@ -9,12 +9,10 @@
     i18n_domain="brasil.gov.newfieldcomplement">
 
   <!-- Publish static files -->
-  <plone:static
-      name="brasil.gov.newfieldcomplement"
-      type="plone"
-      directory="static"
-      />
-
+  <browser:resourceDirectory
+    name="brasil.gov.newfieldcomplement"
+    directory="static"
+  />
 
   <include package="plone.app.registry" />
 
