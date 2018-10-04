@@ -7,4 +7,10 @@
     id="++resource++brasil.gov.newfieldcomplement/bootstrap_table.css" media="screen"
     rel="stylesheet" rendering="link"/>
 
+  <stylesheet title="" applyPrefix="True" authenticated="False"
+    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
+    enabled="on" expression=""
+    id="++resource++brasil.gov.newfieldcomplement/newfieldcomplement.css" media="screen"
+    rel="stylesheet" rendering="link"/>
+
 </object>
