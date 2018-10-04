@@ -141,7 +141,7 @@ Administrador do Site (Site Administrator) ou Conteudista (Contributor / Editor 
     1. Criar a pasta 'Relatórios' na raiz do site. (/Plone/relatorios). Publicar a pasta.
 
     2. Adicionar subpastas conforme a necessidade de organização do conteúdo.
-       Como exemplo podem ser criadas as pastas '2018' (/Plone/relatorios/2018. e '2017' (/Plone/relatorios/2017..
+       Como exemplo podem ser criadas as pastas '2018' (/Plone/relatorios/2018) e '2017' (/Plone/relatorios/2017).
        Publicar as pastas.
 
        .. image:: estrutura_pastas.png

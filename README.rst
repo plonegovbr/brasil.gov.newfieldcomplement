@@ -9,7 +9,7 @@ Introdução
 -----------
 
 Complementa a inclusão de novos campos nos tipos de conteúdo Dexterity,
-provida pelo pacote plone.app.contenttyes.
+provida pelo pacote plone.app.contenttypes.
 
 Engloba:
 
