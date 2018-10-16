@@ -24,4 +24,3 @@ class CssTest(unittest.TestCase):
             '++resource++brasil.gov.newfieldcomplement/newfieldcomplement.css',
         ]:
             self.assertTrue(css in ids, u'CSS {0} not in portal_css.'.format(css))
-

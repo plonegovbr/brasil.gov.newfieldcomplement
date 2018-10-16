@@ -23,4 +23,3 @@ class JsTest(unittest.TestCase):
             '++resource++brasil.gov.newfieldcomplement/newfieldcomplement.js',
         ]:
             self.assertTrue(js in ids, u'JS {0} not in portal_javascripts.'.format(js))
-
