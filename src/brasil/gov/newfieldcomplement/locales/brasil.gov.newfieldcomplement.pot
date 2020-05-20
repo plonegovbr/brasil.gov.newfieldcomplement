@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-07-23 18:33+0000\n"
+"POT-Creation-Date: 2020-05-20 21:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,95 +35,95 @@ msgid "Add portal_catalog Index"
 msgstr ""
 
 #: ../browser/add_index_form.py:157
-#: ../browser/faceted_tabular_config.py:250
+#: ../browser/faceted_tabular_config.py:267
 msgid "Cancel"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:254
+#: ../browser/faceted_tabular_config.py:270
 msgid "Changes cancelled!"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:248
+#: ../browser/faceted_tabular_config.py:265
 msgid "Changes saved!"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:21
+#: ../browser/faceted_tabular_config.py:33
 msgid "Column 01"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:46
+#: ../browser/faceted_tabular_config.py:58
 msgid "Column 01 Link"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:41
+#: ../browser/faceted_tabular_config.py:53
 msgid "Column 01 Title"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:36
+#: ../browser/faceted_tabular_config.py:48
 msgid "Column 01 Vocabulary"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:53
+#: ../browser/faceted_tabular_config.py:65
 msgid "Column 02"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:77
+#: ../browser/faceted_tabular_config.py:89
 msgid "Column 02 Link"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:72
+#: ../browser/faceted_tabular_config.py:84
 msgid "Column 02 Title"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:67
+#: ../browser/faceted_tabular_config.py:79
 msgid "Column 02 Vocabulary"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:84
+#: ../browser/faceted_tabular_config.py:96
 msgid "Column 03"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:108
+#: ../browser/faceted_tabular_config.py:120
 msgid "Column 03 Link"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:103
+#: ../browser/faceted_tabular_config.py:115
 msgid "Column 03 Title"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:98
+#: ../browser/faceted_tabular_config.py:110
 msgid "Column 03 Vocabulary"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:115
+#: ../browser/faceted_tabular_config.py:127
 msgid "Column 04"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:139
+#: ../browser/faceted_tabular_config.py:151
 msgid "Column 04 Link"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:134
+#: ../browser/faceted_tabular_config.py:146
 msgid "Column 04 Title"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:129
+#: ../browser/faceted_tabular_config.py:141
 msgid "Column 04 Vocabulary"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:146
+#: ../browser/faceted_tabular_config.py:158
 msgid "Column 05"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:170
+#: ../browser/faceted_tabular_config.py:182
 msgid "Column 05 Link"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:165
+#: ../browser/faceted_tabular_config.py:177
 msgid "Column 05 Title"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:160
+#: ../browser/faceted_tabular_config.py:172
 msgid "Column 05 Vocabulary"
 msgstr ""
 
@@ -132,12 +132,12 @@ msgstr ""
 msgid "Dynamic Vocabularies"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:191
+#: ../browser/faceted_tabular_config.py:203
 #: ../profiles/default/actions.xml
 msgid "Faceted Tabular Fields"
 msgstr ""
 
-#: ../browser/configure.zcml:51
+#: ../browser/configure.zcml:49
 msgid "Faceted Tabular View"
 msgstr ""
 
@@ -157,20 +157,32 @@ msgstr ""
 msgid "Invalid short field name."
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:224
+#: ../browser/faceted_tabular_config.py:243
 msgid "Please fill in the title(s) of columns(s): ${titles}"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:236
+#: ../browser/faceted_tabular_config.py:254
 msgid "Please select at least one column as a link to object view."
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:218
+#: ../browser/faceted_tabular_config.py:237
 msgid "Save"
 msgstr ""
 
 #: ../browser/add_index_form.py:32
 msgid "Short field name or get function"
+msgstr ""
+
+#: ../browser/faceted_tabular_config.py:21
+msgid "Table"
+msgstr ""
+
+#: ../browser/faceted_tabular_config.py:27
+msgid "Table Caption"
+msgstr ""
+
+#: ../configure.zcml:45
+msgid "Tests of brasil.gov.newfieldcomplement."
 msgstr ""
 
 #: ../browser/add_index_form.py:131
@@ -325,6 +337,6 @@ msgstr ""
 msgid "dynamic_vocabulary_desc"
 msgstr ""
 
-#: ../browser/faceted_tabular_config.py:73
+#: ../browser/faceted_tabular_config.py:85
 msgid "title_description"
 msgstr ""

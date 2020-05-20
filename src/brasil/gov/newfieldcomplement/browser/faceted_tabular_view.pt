@@ -24,6 +24,10 @@
             i18n:attributes="summary summary_report_listing;"
             tal:define="fields self/get_faceted_tabular_fields;"
             >
+          <caption tal:content="fields/table_caption"
+                   tal:condition="fields/table_caption|nothing"
+                   class="table_caption">
+          </caption>
           <thead>
             <tr>
                 <th tal:content="fields/column_01_title"
