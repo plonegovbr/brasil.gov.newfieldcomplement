@@ -130,9 +130,13 @@ msgstr "Vocabulários Dinâmicos"
 msgid "Faceted Tabular Fields"
 msgstr "Campos da Visão Facetada Tabular"
 
-#: ../browser/configure.zcml:49
+#: ../browser/configure.zcml:57
 msgid "Faceted Tabular View"
 msgstr "Visão Facetada Tabular"
+
+#: ../browser/overrides/eea.facetednavigation.browser.template.macros.pt:16
+msgid "Filter"
+msgstr "Filtrar"
 
 #: ../browser/add_index_form.py:38
 msgid "Index Type"
@@ -331,7 +335,7 @@ msgid "dynamic_vocabulary_desc"
 msgstr "Informe um valor por linha."
 
 #. Default: "Report listing"
-#: ../browser/faceted_tabular_view.pt:24
+#: ../browser/faceted_tabular_view.pt:22
 msgid "summary_report_listing"
 msgstr "Listagem"
 

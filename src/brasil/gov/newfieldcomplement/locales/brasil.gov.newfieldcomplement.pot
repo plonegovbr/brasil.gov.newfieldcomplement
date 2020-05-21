@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-21 15:12+0000\n"
+"POT-Creation-Date: 2020-05-21 21:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,8 +137,12 @@ msgstr ""
 msgid "Faceted Tabular Fields"
 msgstr ""
 
-#: ../browser/configure.zcml:49
+#: ../browser/configure.zcml:57
 msgid "Faceted Tabular View"
+msgstr ""
+
+#: ../browser/overrides/eea.facetednavigation.browser.template.macros.pt:16
+msgid "Filter"
 msgstr ""
 
 #: ../browser/add_index_form.py:38
@@ -338,7 +342,7 @@ msgid "dynamic_vocabulary_desc"
 msgstr ""
 
 #. Default: "Report listing"
-#: ../browser/faceted_tabular_view.pt:24
+#: ../browser/faceted_tabular_view.pt:22
 msgid "summary_report_listing"
 msgstr ""
 

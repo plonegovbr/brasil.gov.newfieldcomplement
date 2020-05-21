@@ -50,6 +50,7 @@ setup(
         'setuptools',
         'zope.i18nmessageid',
         'zope.interface',
+        'z3c.jbot',
     ],
     extras_require={
         'test': [

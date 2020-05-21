@@ -8,6 +8,14 @@
     xmlns:faceted="http://namespaces.zope.org/faceted"
     i18n_domain="brasil.gov.newfieldcomplement">
 
+   <!-- z3c.jbot -->
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot
+      directory="overrides"
+      layer="brasil.gov.newfieldcomplement.interfaces.IBrasilGovNewfieldcomplementLayer"
+      />
+
+
   <!-- Publish static files -->
   <browser:resourceDirectory
     name="brasil.gov.newfieldcomplement"
