@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-20 21:12+0000\n"
+"POT-Creation-Date: 2020-05-21 15:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -335,6 +335,11 @@ msgstr ""
 
 #: ../browser/dynamic_vocabularies_form.py:21
 msgid "dynamic_vocabulary_desc"
+msgstr ""
+
+#. Default: "Report listing"
+#: ../browser/faceted_tabular_view.pt:24
+msgid "summary_report_listing"
 msgstr ""
 
 #: ../browser/faceted_tabular_config.py:85

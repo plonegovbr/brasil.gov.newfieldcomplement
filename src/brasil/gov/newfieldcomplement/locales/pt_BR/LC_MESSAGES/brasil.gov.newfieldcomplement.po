@@ -330,6 +330,11 @@ msgstr "Vocabulário Dinâmico 15"
 msgid "dynamic_vocabulary_desc"
 msgstr "Informe um valor por linha."
 
+#. Default: "Report listing"
+#: ../browser/faceted_tabular_view.pt:24
+msgid "summary_report_listing"
+msgstr "Listagem"
+
 #: ../browser/faceted_tabular_config.py:85
 msgid "title_description"
 msgstr "É obrigatório o preenchimento do título sempre que a coluna for preenchida."
