@@ -97,10 +97,6 @@ class BaseFuncitonalTest(unittest.TestCase):
             'Enable faceted navigation'
         ).click()
         self.browser.getControl(name='form.button.confirm').click()
-        self.browser.getLink(
-            'Enable faceted search'
-        ).click()
-        self.browser.getControl(name='form.button.confirm').click()
         transaction.commit()
 
     def _configure_faceted(self):
@@ -124,7 +120,16 @@ class BaseFuncitonalTest(unittest.TestCase):
                 )
             )
         )
-        # self.browser.getControl(name='form.button.confirm').click()
+        transaction.commit()
+
+    def _active_faceted_tabular_summary_view(self):
+        self.browser.open(
+            addTokenToUrl(
+                '{}/relatorios/@@faceted_layout?layout=faceted-tabular-summary-view'.format(
+                    self.portal_url
+                )
+            )
+        )
         transaction.commit()
 
     def _open_faceted_tabular_config(self):

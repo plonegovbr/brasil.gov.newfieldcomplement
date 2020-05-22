@@ -4,14 +4,15 @@
   mode mode | string:view;" tal:condition="positions">
   <div tal:define="
     position_title python:positions.get(position).title;
-    sections python:view.get_sections(position=position, mode=mode)"
+    sections python:view.get_sections(position=position, mode=mode);
+    active_collapse python:position == 'top' and mode == 'view'"
     tal:attributes="
     id string:faceted-${position}-column;
     class string:faceted-column faceted-${position}-column visualNoPrint;">
 
-    <metal:widgets use-macro="here/@@faceted_macros/macros/sections" tal:condition="python:position != 'top'" />
+    <metal:widgets use-macro="here/@@faceted_macros/macros/sections" tal:condition="not:active_collapse" />
 
-    <tal:block tal:condition="python:position == 'top'">
+    <tal:block tal:condition="active_collapse">
       <p i18n:domain="brasil.gov.newfieldcomplement">
         <a class="filter-btn" data-toggle="collapse" href="#collapse-form" role="button" aria-expanded="false" aria-controls="collapse-form" i18n:translate="Filter">
           Filter
