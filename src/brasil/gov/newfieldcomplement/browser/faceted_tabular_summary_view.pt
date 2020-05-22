@@ -29,27 +29,6 @@
                    tal:content="fields/table_caption"
                    tal:condition="fields/table_caption|nothing">
           </caption>
-          <thead>
-            <tr class="active">
-
-                <th scope="col"
-                    tal:content="fields/column_02_title"
-                    tal:condition="fields/column_02_title|nothing">
-                </th>
-                <th scope="col"
-                    tal:content="fields/column_03_title"
-                    tal:condition="fields/column_03_title|nothing">
-                </th>
-                <th scope="col"
-                    tal:content="fields/column_04_title"
-                    tal:condition="fields/column_04_title|nothing">
-                </th>
-                <th scope="col"
-                    tal:content="fields/column_05_title"
-                    tal:condition="fields/column_05_title|nothing">
-                </th>
-            </tr>
-          </thead>
           <tbody>
             <tal:entries tal:repeat="brain batch">
               <tal:block tal:define="url python:self.get_url(brain);"
