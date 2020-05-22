@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.1.0 (unreleased)
-------------------
+1.1.0.dev0 (2020-05-22)
+-----------------------
 
 - Atualiza buildout para uso do idg 2.1.1.
 - Adiciona novo campo de configuração table_caption.
