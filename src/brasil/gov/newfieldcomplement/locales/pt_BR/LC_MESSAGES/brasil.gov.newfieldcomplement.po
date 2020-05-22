@@ -130,6 +130,10 @@ msgstr "Vocabulários Dinâmicos"
 msgid "Faceted Tabular Fields"
 msgstr "Campos da Visão Facetada Tabular"
 
+#: ../browser/configure.zcml:66
+msgid "Faceted Tabular Summary View"
+msgstr "Visão Facetada Tabular Sumária"
+
 #: ../browser/configure.zcml:57
 msgid "Faceted Tabular View"
 msgstr "Visão Facetada Tabular"
@@ -335,6 +339,7 @@ msgid "dynamic_vocabulary_desc"
 msgstr "Informe um valor por linha."
 
 #. Default: "Report listing"
+#: ../browser/faceted_tabular_summary_view.pt:22
 #: ../browser/faceted_tabular_view.pt:22
 msgid "summary_report_listing"
 msgstr "Listagem"
