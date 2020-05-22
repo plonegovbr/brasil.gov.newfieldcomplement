@@ -56,6 +56,15 @@
     layer="brasil.gov.newfieldcomplement.interfaces.IBrasilGovNewfieldcomplementLayer"
   />
 
+  <faceted:view
+    name="faceted-tabular-summary-view"
+    class=".faceted_tabular_view.FacetedTabularView"
+    template="faceted_tabular_summary_view.pt"
+    title="Faceted Tabular Summary View"
+    permission="zope2.View"
+    layer="brasil.gov.newfieldcomplement.interfaces.IBrasilGovNewfieldcomplementLayer"
+  />
+
   <!-- https://stackoverflow.com/questions/33305555/how-to-use-annotations-with-z3c-forms-dictionaryfield -->
   <adapter
     for="persistent.dict.PersistentDict zope.schema.interfaces.IField"
