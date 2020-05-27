@@ -53,4 +53,6 @@
 
   <include file="vocabularies.zcml" />
 
+  <include file="patches.zcml" />
+
 </configure>

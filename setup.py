@@ -51,6 +51,7 @@ setup(
         'zope.i18nmessageid',
         'zope.interface',
         'z3c.jbot',
+        'collective.monkeypatcher',
     ],
     extras_require={
         'test': [
