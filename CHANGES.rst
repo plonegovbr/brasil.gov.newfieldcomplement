@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1.0.dev1 (unreleased)
+1.1.0.dev1 (2020-05-27)
 -----------------------
 
 - Adiciona patch de
