@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1.0.dev2 (unreleased)
+1.1.0.dev2 (2020-05-28)
 -----------------------
 
 - Adiciona mensagem 'Nenhum registro encontrado.'
