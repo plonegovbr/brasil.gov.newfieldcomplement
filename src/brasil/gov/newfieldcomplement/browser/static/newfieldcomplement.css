@@ -28,3 +28,7 @@
   font-size: 16px;
   text-decoration: none;
 }
+
+body div.ui-datepicker div.ui-datepicker-title {
+  display: block;
+}

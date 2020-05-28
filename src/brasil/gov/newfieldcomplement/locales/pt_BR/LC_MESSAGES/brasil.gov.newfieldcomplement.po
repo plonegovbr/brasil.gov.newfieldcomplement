@@ -138,7 +138,7 @@ msgstr "Visão Facetada Tabular Sumária"
 msgid "Faceted Tabular View"
 msgstr "Visão Facetada Tabular"
 
-#: ../browser/overrides/eea.facetednavigation.browser.template.macros.pt:16
+#: ../browser/overrides/eea.facetednavigation.browser.template.macros.pt:17
 msgid "Filter"
 msgstr "Filtrar"
 
@@ -157,6 +157,11 @@ msgstr "Instala o pacote brasil.gov.newfieldcomplement."
 #: ../browser/add_index_form.py:19
 msgid "Invalid short field name."
 msgstr "Nome curto inválido."
+
+#: ../browser/faceted_tabular_summary_view.pt:138
+#: ../browser/faceted_tabular_view.pt:138
+msgid "No results were found."
+msgstr "Nenhum registro encontrado."
 
 #: ../browser/faceted_tabular_config.py:243
 msgid "Please fill in the title(s) of columns(s): ${titles}"

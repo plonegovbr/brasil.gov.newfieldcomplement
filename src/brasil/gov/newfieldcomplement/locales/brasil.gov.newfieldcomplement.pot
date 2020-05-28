@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-05-22 13:23+0000\n"
+"POT-Creation-Date: 2020-05-28 14:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,7 +145,7 @@ msgstr ""
 msgid "Faceted Tabular View"
 msgstr ""
 
-#: ../browser/overrides/eea.facetednavigation.browser.template.macros.pt:16
+#: ../browser/overrides/eea.facetednavigation.browser.template.macros.pt:17
 msgid "Filter"
 msgstr ""
 
@@ -163,6 +163,11 @@ msgstr ""
 
 #: ../browser/add_index_form.py:19
 msgid "Invalid short field name."
+msgstr ""
+
+#: ../browser/faceted_tabular_summary_view.pt:138
+#: ../browser/faceted_tabular_view.pt:138
+msgid "No results were found."
 msgstr ""
 
 #: ../browser/faceted_tabular_config.py:243
