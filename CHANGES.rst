@@ -4,7 +4,11 @@ Changelog
 1.1.0.dev2 (unreleased)
 -----------------------
 
-- Nothing changed yet.
+- Adiciona mensagem 'Nenhum registro encontrado.'
+- Adiciona total de registros encontrados na caption da tabela.
+- Exibe mês e ano no widget de data que havia sido escondido pelo
+css de agenda.
+  [idgserpro]
 
 
 1.1.0.dev1 (2020-05-27)
