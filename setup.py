@@ -52,6 +52,7 @@ setup(
         'zope.interface',
         'z3c.jbot',
         'collective.monkeypatcher',
+        'collective.dexteritytextindexer',
     ],
     extras_require={
         'test': [

@@ -4,7 +4,7 @@ Changelog
 1.1.0.dev3 (unreleased)
 -----------------------
 
-- Nothing changed yet.
+- Remove customização que adicionava link filter collapse.
 
 
 1.1.0.dev2 (2020-05-28)

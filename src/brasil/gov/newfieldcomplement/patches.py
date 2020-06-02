@@ -47,6 +47,5 @@ def criteria(self, sort=False, **kwargs):
 
     if 'Language' in query:
         query.pop('Language')
-
     logger.debug('QUERY: %s', query)
     return query
