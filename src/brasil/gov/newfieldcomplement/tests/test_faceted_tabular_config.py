@@ -125,10 +125,13 @@ class FacetedTabularConfigTest(BaseFuncitonalTest):
         self._login(rule='site administrator')
         self._active_faceted()
         self._configure_faceted()
-        self._active_faceted_tabular_view()
+        self._active_faceted_tabular_summary_view()
         self.browser.open(
             '{}/relatorios/@@faceted-tabular-config'.format(self.portal_url)
         )
+        self.browser.getControl(
+            name='form.widgets.table_caption',
+        ).value = 'Registros'
         self.browser.getControl(
             name='form.widgets.column_02:list',
         ).value = ['Description', ]
