@@ -198,6 +198,10 @@ Administrador do Site (Site Administrator) ou Conteudista (Contributor / Editor 
 
             .. image:: visao_facetada_tabular.png
 
+        Também está disponível a Visão Facetada Tabular Sumária:
+
+            .. image:: visao_facetada_tabular_sumaria.png
+
     6. Configurar as colunas exibidas na Visão Facetada Tabular.
        É obrigatório que pelo menos uma coluna seja preenchida.
        Pelo menos uma coluna deve ser marcada como link para a visão do objeto.
