@@ -10,7 +10,7 @@ with open("README.rst", "r") as fh:
 
 setup(
     name='brasil.gov.newfieldcomplement',
-    version='1.1.0',
+    version='1.1.1.dev0',
     description="An add-on for Plone",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
