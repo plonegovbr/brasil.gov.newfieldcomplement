@@ -5,12 +5,8 @@ from setuptools import find_packages
 from setuptools import setup
 
 
-long_description = '\n\n'.join([
-    open('README.rst').read(),
-    open('CONTRIBUTORS.rst').read(),
-    open('CHANGES.rst').read(),
-])
-
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setup(
     name='brasil.gov.newfieldcomplement',
