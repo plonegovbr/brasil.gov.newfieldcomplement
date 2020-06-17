@@ -19,6 +19,7 @@ class UtilsView(BrowserView):
             content = annotations['faceted_tabular_fields']
         else:
             content = {
+                'table_caption': None,
                 'column_01': u'Title',
                 'column_01_title': u'Título',
                 'column_01_link': True

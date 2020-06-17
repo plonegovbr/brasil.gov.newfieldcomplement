@@ -6,6 +6,7 @@
 # locales/[language]/LC_MESSAGES/brasil.gov.newfieldcomplement.po
 # (e.g. locales/de/LC_MESSAGES/brasil.gov.newfieldcomplement.po)
 
+i18ndude=$BUILDOUT_DIR/bin/i18ndude
 domain=brasil.gov.newfieldcomplement
 
 i18ndude rebuild-pot --pot $domain.pot --create $domain ../

@@ -17,6 +17,18 @@ class IFacetedTabularConfigForm(Schema):
     """ Define form fields """
 
     fieldset(
+        'table_fieldset',
+        label=_(u'Table'),
+        fields=[
+            'table_caption',
+        ]
+    )
+    table_caption = schema.TextLine(
+        title=_(u'Table Caption'),
+        required=False,
+    )
+
+    fieldset(
         'column_01_fieldset',
         label=_(u'Column 01'),
         fields=[

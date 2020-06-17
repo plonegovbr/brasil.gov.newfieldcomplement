@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='brasil.gov.newfieldcomplement',
-    version='1.0.0',
+    version='1.1.0.dev4',
     description="An add-on for Plone",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -50,6 +50,9 @@ setup(
         'setuptools',
         'zope.i18nmessageid',
         'zope.interface',
+        'z3c.jbot',
+        'collective.monkeypatcher',
+        'collective.dexteritytextindexer',
     ],
     extras_require={
         'test': [

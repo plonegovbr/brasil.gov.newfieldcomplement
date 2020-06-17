@@ -35,7 +35,7 @@ Exemplo de ações que podem ser executadas pelo usuário com perfil Manager.
 
 - Criar novos campos para um tipo de conteúdo Dexterity.
 
-    1. Configuração do site > Tipos de conteúdo dexterity > File (ou Identificador do novo tipo de conteúdo criado) 
+    1. Configuração do site > Tipos de conteúdo dexterity > File (ou Identificador do novo tipo de conteúdo criado)
 
     2. Aba Campos
 
@@ -146,11 +146,9 @@ Administrador do Site (Site Administrator) ou Conteudista (Contributor / Editor 
 
        .. image:: estrutura_pastas.png
 
-    3. Ativar a busca facetada na pasta 'Relatórios'.
+    3. Ativar a navegação facetada na pasta 'Relatórios'.
 
         Página Inicial > Relatórios > Ações > Permitir a navegação facetada
-
-        Página Inicial > Relatórios > Ações > Permitir a pesquisa facetada
 
         .. image:: ativar_facetada.png
 
@@ -200,11 +198,17 @@ Administrador do Site (Site Administrator) ou Conteudista (Contributor / Editor 
 
             .. image:: visao_facetada_tabular.png
 
+        Também está disponível a Visão Facetada Tabular Sumária:
+
+            .. image:: visao_facetada_tabular_sumaria.png
+
     6. Configurar as colunas exibidas na Visão Facetada Tabular.
        É obrigatório que pelo menos uma coluna seja preenchida.
        Pelo menos uma coluna deve ser marcada como link para a visão do objeto.
 
         Página Inicial > Relatórios > Campos da Visão Facetada Tabular
+
+        .. image:: legenda_tabela.png
 
         .. image:: coluna_01.png
 
