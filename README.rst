@@ -61,7 +61,7 @@ instalados. Para os sites que não utilizam o pacote IDG, é necessário que os 
 Caso não estejam disponíveis para instalação, devem ser adicionados ao buildout:
 
         [buildout]
-            ...
+
             eggs =
                 plone.app.dexterity
 
