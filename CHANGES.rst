@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.1.0.dev4 (unreleased)
------------------------
+1.1.0 (2020-06-17)
+------------------
 
 - Conjunto de alterações de 1.1.0.dev0 a 1.1.0.dev3.
   [idgserpro]
