@@ -13,6 +13,7 @@ setup(
     version='1.1.0.dev4',
     description="An add-on for Plone",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         "Environment :: Web Environment",
